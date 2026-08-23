@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AcseChatbot</title>
+</head>
+<body>
+<div class="chat-container">
+    <!-- Left Sidebar Menu -->
+    <div class="sidebar">
+        <h3>🤖 AcseChatbot</h3>
+        <button class="menu-btn">New Chat</button>
+        <button class="menu-btn">History</button>
+        <button class="menu-btn">Profile</button>
+        <button class="menu-btn">Logout</button>
+    </div>
+
+    <!-- Right Main Chat Window -->
+    <div class="chat-window">
+        <div class="chat-header">
+            <h2>AcseChatbot</h2>
+        </div>
+        
+        <div class="chat-messages">
+            <div class="message bot">
+                <p>Hello! How can I help you?</p>
+            </div>
+            <div class="message user">
+                <p>Where is the lab?</p>
+            </div>
+            <div class="message bot">
+                <p>The lab is...</p>
+            </div>
+        </div>
+
+        <div class="chat-input-area">
+            <input type="text" placeholder="Ask AcseChatbot...">
+            <button class="send-btn">Send</button>
+        </div>
+    </div>
+</div>
+
+<!-- This connects your frontend interface to your backend app logic -->
+<script src="app.js"></script>
+</body>
+</html>
